@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EF9E66514F96D2D00B55F0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF9E66414F96D2D00B55F0F /* UIKit.framework */; };
+		6EF9E66714F96D2D00B55F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF9E66614F96D2D00B55F0F /* Foundation.framework */; };
+		6EF9E66914F96D2D00B55F0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF9E66814F96D2D00B55F0F /* CoreGraphics.framework */; };
+		6EF9E66F14F96D2D00B55F0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EF9E66D14F96D2D00B55F0F /* InfoPlist.strings */; };
+		6EF9E67114F96D2D00B55F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E67014F96D2D00B55F0F /* main.m */; };
+		6EF9E67514F96D2D00B55F0F /* IMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E67414F96D2D00B55F0F /* IMAppDelegate.m */; };
+		6EF9E67814F96D2D00B55F0F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF9E67614F96D2D00B55F0F /* MainStoryboard.storyboard */; };
+		6EF9E67B14F96D2D00B55F0F /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E67A14F96D2D00B55F0F /* IMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EF9E66014F96D2D00B55F0F /* imgur_uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imgur_uploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF9E66414F96D2D00B55F0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EF9E66614F96D2D00B55F0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EF9E66814F96D2D00B55F0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EF9E66C14F96D2D00B55F0F /* imgur_uploader-Info.plist */ = {isa = PBXFileReference; path = "imgur_uploader-Info.plist"; sourceTree = "<group>"; };
+		6EF9E66E14F96D2D00B55F0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EF9E67014F96D2D00B55F0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EF9E67214F96D2D00B55F0F /* imgur_uploader-Prefix.pch */ = {isa = PBXFileReference; path = "imgur_uploader-Prefix.pch"; sourceTree = "<group>"; };
+		6EF9E67314F96D2D00B55F0F /* IMAppDelegate.h */ = {isa = PBXFileReference; path = IMAppDelegate.h; sourceTree = "<group>"; };
+		6EF9E67414F96D2D00B55F0F /* IMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAppDelegate.m; sourceTree = "<group>"; };
+		6EF9E67714F96D2D00B55F0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6EF9E67914F96D2D00B55F0F /* IMViewController.h */ = {isa = PBXFileReference; path = IMViewController.h; sourceTree = "<group>"; };
+		6EF9E67A14F96D2D00B55F0F /* IMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EF9E65D14F96D2D00B55F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF9E66514F96D2D00B55F0F /* UIKit.framework in Frameworks */,
+				6EF9E66714F96D2D00B55F0F /* Foundation.framework in Frameworks */,
+				6EF9E66914F96D2D00B55F0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EF9E65514F96D2D00B55F0F = {
+			isa = PBXGroup;
+			children = (
+				6EF9E66A14F96D2D00B55F0F /* imgur_uploader */,
+				6EF9E66314F96D2D00B55F0F /* Frameworks */,
+				6EF9E66114F96D2D00B55F0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EF9E66114F96D2D00B55F0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EF9E66014F96D2D00B55F0F /* imgur_uploader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EF9E66314F96D2D00B55F0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EF9E66414F96D2D00B55F0F /* UIKit.framework */,
+				6EF9E66614F96D2D00B55F0F /* Foundation.framework */,
+				6EF9E66814F96D2D00B55F0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EF9E66A14F96D2D00B55F0F /* imgur_uploader */ = {
+			isa = PBXGroup;
+			children = (
+				6EF9E67314F96D2D00B55F0F /* IMAppDelegate.h */,
+				6EF9E67414F96D2D00B55F0F /* IMAppDelegate.m */,
+				6EF9E67614F96D2D00B55F0F /* MainStoryboard.storyboard */,
+				6EF9E67914F96D2D00B55F0F /* IMViewController.h */,
+				6EF9E67A14F96D2D00B55F0F /* IMViewController.m */,
+				6EF9E66B14F96D2D00B55F0F /* Supporting Files */,
+			);
+			path = imgur_uploader;
+			sourceTree = "<group>";
+		};
+		6EF9E66B14F96D2D00B55F0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EF9E66C14F96D2D00B55F0F /* imgur_uploader-Info.plist */,
+				6EF9E66D14F96D2D00B55F0F /* InfoPlist.strings */,
+				6EF9E67014F96D2D00B55F0F /* main.m */,
+				6EF9E67214F96D2D00B55F0F /* imgur_uploader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EF9E65F14F96D2D00B55F0F /* imgur_uploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EF9E67E14F96D2D00B55F0F /* Build configuration list for PBXNativeTarget "imgur_uploader" */;
+			buildPhases = (
+				6EF9E65C14F96D2D00B55F0F /* Sources */,
+				6EF9E65D14F96D2D00B55F0F /* Frameworks */,
+				6EF9E65E14F96D2D00B55F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imgur_uploader;
+			productName = imgur_uploader;
+			productReference = 6EF9E66014F96D2D00B55F0F /* imgur_uploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EF9E65714F96D2D00B55F0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6EF9E65A14F96D2D00B55F0F /* Build configuration list for PBXProject "imgur_uploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EF9E65514F96D2D00B55F0F;
+			productRefGroup = 6EF9E66114F96D2D00B55F0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EF9E65F14F96D2D00B55F0F /* imgur_uploader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EF9E65E14F96D2D00B55F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF9E66F14F96D2D00B55F0F /* InfoPlist.strings in Resources */,
+				6EF9E67814F96D2D00B55F0F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EF9E65C14F96D2D00B55F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF9E67114F96D2D00B55F0F /* main.m in Sources */,
+				6EF9E67514F96D2D00B55F0F /* IMAppDelegate.m in Sources */,
+				6EF9E67B14F96D2D00B55F0F /* IMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EF9E66D14F96D2D00B55F0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF9E66E14F96D2D00B55F0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EF9E67614F96D2D00B55F0F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EF9E67714F96D2D00B55F0F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EF9E67C14F96D2D00B55F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EF9E67D14F96D2D00B55F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EF9E67F14F96D2D00B55F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imgur_uploader/imgur_uploader-Prefix.pch";
+				INFOPLIST_FILE = "imgur_uploader/imgur_uploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EF9E68014F96D2D00B55F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "imgur_uploader/imgur_uploader-Prefix.pch";
+				INFOPLIST_FILE = "imgur_uploader/imgur_uploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EF9E65A14F96D2D00B55F0F /* Build configuration list for PBXProject "imgur_uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF9E67C14F96D2D00B55F0F /* Debug */,
+				6EF9E67D14F96D2D00B55F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EF9E67E14F96D2D00B55F0F /* Build configuration list for PBXNativeTarget "imgur_uploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF9E67F14F96D2D00B55F0F /* Debug */,
+				6EF9E68014F96D2D00B55F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EF9E65714F96D2D00B55F0F /* Project object */;
+}
