@@ -15,6 +15,10 @@
 		6EF9E67514F96D2D00B55F0F /* IMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E67414F96D2D00B55F0F /* IMAppDelegate.m */; };
 		6EF9E67814F96D2D00B55F0F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF9E67614F96D2D00B55F0F /* MainStoryboard.storyboard */; };
 		6EF9E67B14F96D2D00B55F0F /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E67A14F96D2D00B55F0F /* IMViewController.m */; };
+		6EF9E69314F9CFB800B55F0F /* ImgurUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E69214F9CFB800B55F0F /* ImgurUploader.m */; };
+		6EF9E69614F9D3AD00B55F0F /* NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E69514F9D3AD00B55F0F /* NSData.m */; };
+		6EF9E69914F9D41400B55F0F /* NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E69814F9D41400B55F0F /* NSString.m */; };
+		6EF9E69C14F9D47E00B55F0F /* NSString_url.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E69B14F9D47E00B55F0F /* NSString_url.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,23 @@
 		6EF9E66414F96D2D00B55F0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EF9E66614F96D2D00B55F0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6EF9E66814F96D2D00B55F0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6EF9E66C14F96D2D00B55F0F /* imgur_uploader-Info.plist */ = {isa = PBXFileReference; path = "imgur_uploader-Info.plist"; sourceTree = "<group>"; };
+		6EF9E66C14F96D2D00B55F0F /* imgur_uploader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imgur_uploader-Info.plist"; sourceTree = "<group>"; };
 		6EF9E66E14F96D2D00B55F0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EF9E67014F96D2D00B55F0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6EF9E67214F96D2D00B55F0F /* imgur_uploader-Prefix.pch */ = {isa = PBXFileReference; path = "imgur_uploader-Prefix.pch"; sourceTree = "<group>"; };
-		6EF9E67314F96D2D00B55F0F /* IMAppDelegate.h */ = {isa = PBXFileReference; path = IMAppDelegate.h; sourceTree = "<group>"; };
+		6EF9E67214F96D2D00B55F0F /* imgur_uploader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imgur_uploader-Prefix.pch"; sourceTree = "<group>"; };
+		6EF9E67314F96D2D00B55F0F /* IMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMAppDelegate.h; sourceTree = "<group>"; };
 		6EF9E67414F96D2D00B55F0F /* IMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAppDelegate.m; sourceTree = "<group>"; };
 		6EF9E67714F96D2D00B55F0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6EF9E67914F96D2D00B55F0F /* IMViewController.h */ = {isa = PBXFileReference; path = IMViewController.h; sourceTree = "<group>"; };
+		6EF9E67914F96D2D00B55F0F /* IMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMViewController.h; sourceTree = "<group>"; };
 		6EF9E67A14F96D2D00B55F0F /* IMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
+		6EF9E69114F9CFB800B55F0F /* ImgurUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgurUploader.h; sourceTree = "<group>"; };
+		6EF9E69214F9CFB800B55F0F /* ImgurUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgurUploader.m; sourceTree = "<group>"; };
+		6EF9E69414F9D3AD00B55F0F /* NSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSData.h; sourceTree = "<group>"; };
+		6EF9E69514F9D3AD00B55F0F /* NSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData.m; sourceTree = "<group>"; };
+		6EF9E69714F9D41400B55F0F /* NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString.h; sourceTree = "<group>"; };
+		6EF9E69814F9D41400B55F0F /* NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString.m; sourceTree = "<group>"; };
+		6EF9E69A14F9D47E00B55F0F /* NSString_url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_url.h; sourceTree = "<group>"; };
+		6EF9E69B14F9D47E00B55F0F /* NSString_url.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_url.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,14 @@
 				6EF9E67614F96D2D00B55F0F /* MainStoryboard.storyboard */,
 				6EF9E67914F96D2D00B55F0F /* IMViewController.h */,
 				6EF9E67A14F96D2D00B55F0F /* IMViewController.m */,
+				6EF9E69114F9CFB800B55F0F /* ImgurUploader.h */,
+				6EF9E69214F9CFB800B55F0F /* ImgurUploader.m */,
+				6EF9E69414F9D3AD00B55F0F /* NSData.h */,
+				6EF9E69514F9D3AD00B55F0F /* NSData.m */,
+				6EF9E69714F9D41400B55F0F /* NSString.h */,
+				6EF9E69814F9D41400B55F0F /* NSString.m */,
+				6EF9E69A14F9D47E00B55F0F /* NSString_url.h */,
+				6EF9E69B14F9D47E00B55F0F /* NSString_url.m */,
 				6EF9E66B14F96D2D00B55F0F /* Supporting Files */,
 			);
 			path = imgur_uploader;
@@ -163,6 +183,10 @@
 				6EF9E67114F96D2D00B55F0F /* main.m in Sources */,
 				6EF9E67514F96D2D00B55F0F /* IMAppDelegate.m in Sources */,
 				6EF9E67B14F96D2D00B55F0F /* IMViewController.m in Sources */,
+				6EF9E69314F9CFB800B55F0F /* ImgurUploader.m in Sources */,
+				6EF9E69614F9D3AD00B55F0F /* NSData.m in Sources */,
+				6EF9E69914F9D41400B55F0F /* NSString.m in Sources */,
+				6EF9E69C14F9D47E00B55F0F /* NSString_url.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

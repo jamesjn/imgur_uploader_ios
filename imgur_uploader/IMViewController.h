@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ImgurUploader.h"
 
-@interface IMViewController : UIViewController
+@interface IMViewController : UIViewController <UIImagePickerControllerDelegate>
+{
+    UIImage *image;
+    ImgurUploader *uploader;
+}
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageview;
+
+@property (weak, nonatomic) IBOutlet UILabel *url_label;
+- (IBAction)useCamera:(id)sender;
+- (IBAction)sendToImgur:(id)sender;
 
 @end
+
