@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IvJ-rh-ypZ">
-                                <rect key="frame" x="36" y="391" width="81" height="37"/>
+                                <rect key="frame" x="27" y="391" width="81" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Camera">
@@ -40,7 +40,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="urc-hH-hqB">
-                                <rect key="frame" x="165" y="391" width="72" height="37"/>
+                                <rect key="frame" x="124" y="391" width="72" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Imgur">
@@ -54,11 +54,27 @@
                                     <action selector="sendToImgur:" destination="2" eventType="touchUpInside" id="Cdo-GK-PAu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CpE-S6-bdT">
+                                <rect key="frame" x="209" y="391" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendEmail:" destination="2" eventType="touchUpInside" id="3l1-jB-JF8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="imageview" destination="lM6-VZ-uZf" id="NyU-Y4-1To"/>
+                        <outlet property="sendEmail" destination="urc-hH-hqB" id="2Er-lo-w24"/>
                         <outlet property="url_label" destination="e7M-Ly-UH5" id="mx3-tH-l7h"/>
                     </connections>
                 </viewController>
@@ -70,6 +86,7 @@
         <class className="IMViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/IMViewController.h"/>
             <relationships>
+                <relationship kind="action" name="sendEmail:"/>
                 <relationship kind="action" name="sendToImgur:"/>
                 <relationship kind="action" name="useCamera:"/>
                 <relationship kind="outlet" name="imageview" candidateClass="UIImageView"/>

@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E241EF9154CEC4700233EC0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E241EF8154CEC4700233EC0 /* MessageUI.framework */; };
+		6EAD6453154CFFB300452887 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAD6451154CFFB300452887 /* MainStoryboard.storyboard */; };
 		6EF9E66514F96D2D00B55F0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF9E66414F96D2D00B55F0F /* UIKit.framework */; };
 		6EF9E66714F96D2D00B55F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF9E66614F96D2D00B55F0F /* Foundation.framework */; };
 		6EF9E66914F96D2D00B55F0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF9E66814F96D2D00B55F0F /* CoreGraphics.framework */; };
 		6EF9E66F14F96D2D00B55F0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EF9E66D14F96D2D00B55F0F /* InfoPlist.strings */; };
 		6EF9E67114F96D2D00B55F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E67014F96D2D00B55F0F /* main.m */; };
 		6EF9E67514F96D2D00B55F0F /* IMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E67414F96D2D00B55F0F /* IMAppDelegate.m */; };
-		6EF9E67814F96D2D00B55F0F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF9E67614F96D2D00B55F0F /* MainStoryboard.storyboard */; };
 		6EF9E67B14F96D2D00B55F0F /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E67A14F96D2D00B55F0F /* IMViewController.m */; };
 		6EF9E69314F9CFB800B55F0F /* ImgurUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E69214F9CFB800B55F0F /* ImgurUploader.m */; };
 		6EF9E69614F9D3AD00B55F0F /* NSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF9E69514F9D3AD00B55F0F /* NSData.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E241EF8154CEC4700233EC0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6EAD6452154CFFB300452887 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = ../../../github/imgur_uploader_ios/imgur_uploader/en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6EF9E66014F96D2D00B55F0F /* imgur_uploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imgur_uploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF9E66414F96D2D00B55F0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EF9E66614F96D2D00B55F0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,7 +35,6 @@
 		6EF9E67214F96D2D00B55F0F /* imgur_uploader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imgur_uploader-Prefix.pch"; sourceTree = "<group>"; };
 		6EF9E67314F96D2D00B55F0F /* IMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMAppDelegate.h; sourceTree = "<group>"; };
 		6EF9E67414F96D2D00B55F0F /* IMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAppDelegate.m; sourceTree = "<group>"; };
-		6EF9E67714F96D2D00B55F0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6EF9E67914F96D2D00B55F0F /* IMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMViewController.h; sourceTree = "<group>"; };
 		6EF9E67A14F96D2D00B55F0F /* IMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
 		6EF9E69114F9CFB800B55F0F /* ImgurUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgurUploader.h; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E241EF9154CEC4700233EC0 /* MessageUI.framework in Frameworks */,
 				6EF9E66514F96D2D00B55F0F /* UIKit.framework in Frameworks */,
 				6EF9E66714F96D2D00B55F0F /* Foundation.framework in Frameworks */,
 				6EF9E66914F96D2D00B55F0F /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +65,7 @@
 		6EF9E65514F96D2D00B55F0F = {
 			isa = PBXGroup;
 			children = (
+				6E241EF8154CEC4700233EC0 /* MessageUI.framework */,
 				6EF9E66A14F96D2D00B55F0F /* imgur_uploader */,
 				6EF9E66314F96D2D00B55F0F /* Frameworks */,
 				6EF9E66114F96D2D00B55F0F /* Products */,
@@ -91,12 +95,12 @@
 			children = (
 				6EF9E67314F96D2D00B55F0F /* IMAppDelegate.h */,
 				6EF9E67414F96D2D00B55F0F /* IMAppDelegate.m */,
-				6EF9E67614F96D2D00B55F0F /* MainStoryboard.storyboard */,
 				6EF9E67914F96D2D00B55F0F /* IMViewController.h */,
 				6EF9E67A14F96D2D00B55F0F /* IMViewController.m */,
 				6EF9E69114F9CFB800B55F0F /* ImgurUploader.h */,
 				6EF9E69214F9CFB800B55F0F /* ImgurUploader.m */,
 				6EF9E69414F9D3AD00B55F0F /* NSData.h */,
+				6EAD6451154CFFB300452887 /* MainStoryboard.storyboard */,
 				6EF9E69514F9D3AD00B55F0F /* NSData.m */,
 				6EF9E69714F9D41400B55F0F /* NSString.h */,
 				6EF9E69814F9D41400B55F0F /* NSString.m */,
@@ -169,7 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EF9E66F14F96D2D00B55F0F /* InfoPlist.strings in Resources */,
-				6EF9E67814F96D2D00B55F0F /* MainStoryboard.storyboard in Resources */,
+				6EAD6453154CFFB300452887 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,20 +197,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		6EAD6451154CFFB300452887 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EAD6452154CFFB300452887 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
 		6EF9E66D14F96D2D00B55F0F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6EF9E66E14F96D2D00B55F0F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6EF9E67614F96D2D00B55F0F /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EF9E67714F96D2D00B55F0F /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +302,7 @@
 				6EF9E68014F96D2D00B55F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
