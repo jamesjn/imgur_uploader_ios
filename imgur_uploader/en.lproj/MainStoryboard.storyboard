@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -14,7 +16,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IvJ-rh-ypZ">
+<<<<<<< HEAD
                                 <rect key="frame" x="27" y="391" width="81" height="37"/>
+=======
+                                <rect key="frame" x="31" y="391" width="81" height="37"/>
+>>>>>>> 2e4b1aa948dd0d0dac5cbf6f577737bcea799697
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Camera">
@@ -29,7 +35,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="lM6-VZ-uZf">
-                                <rect key="frame" x="20" y="54" width="247" height="271"/>
+                                <rect key="frame" x="38" y="42" width="247" height="271"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="e7M-Ly-UH5">
@@ -40,7 +46,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="urc-hH-hqB">
+<<<<<<< HEAD
                                 <rect key="frame" x="124" y="391" width="72" height="37"/>
+=======
+                                <rect key="frame" x="125" y="391" width="72" height="37"/>
+>>>>>>> 2e4b1aa948dd0d0dac5cbf6f577737bcea799697
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Imgur">
@@ -54,8 +64,13 @@
                                     <action selector="sendToImgur:" destination="2" eventType="touchUpInside" id="Cdo-GK-PAu"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CpE-S6-bdT">
                                 <rect key="frame" x="209" y="391" width="72" height="37"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vXq-VP-3zp">
+                                <rect key="frame" x="213" y="391" width="72" height="37"/>
+>>>>>>> 2e4b1aa948dd0d0dac5cbf6f577737bcea799697
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Email">
@@ -66,7 +81,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+<<<<<<< HEAD
                                     <action selector="sendEmail:" destination="2" eventType="touchUpInside" id="3l1-jB-JF8"/>
+=======
+                                    <action selector="sendEmail:" destination="2" eventType="touchUpInside" id="ByB-BP-Pa9"/>
+>>>>>>> 2e4b1aa948dd0d0dac5cbf6f577737bcea799697
                                 </connections>
                             </button>
                         </subviews>
